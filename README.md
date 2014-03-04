@@ -2,19 +2,25 @@ semver
 ======
 
 Semantic Versioning 2.0.0
+=========================
 
-Semântico:
+Semântico
+---------
+
 "Palavra que indica a origem hipotética de formação da mesma, verdadeiro significado criado pelo homem para indicar procedencia. Semân = Semêm, fonte geradora.
 antica = antigo, anterior, antes, procedencia original.
 
 Seman = Sêmen
 Antica = Antiga, anterior, antecedente, procedencia original."
 
-Versionamento:
+Versionamento
+-------------
+
 "Um sistema de controle de versão (ou versionamento), VCS (do inglês version control system) ou ainda SCM (do inglês source code management) na função prática da Ciência da Computação e da Engenharia de Software, é um software com a finalidade de gerenciar diferentes versões no desenvolvimento de um documento qualquer. Esses sistemas são comumente utilizados no desenvolvimento de software para controlar as diferentes versões — histórico e desenvolvimento — dos códigos-fontes e também da documentação."
 Fontes: http://pt.wikipedia.org
 
-Introdução:
+Introdução
+----------
 No mundo do gerenciamento de software, existe um lugar terrível chamado “dependency hell“. Quanto mais o seu sistema cresce e mais pacotes você integrar no seu software, maior a probabilidade de você se encontrar, um dia, neste poço do desespero.
 
 Em sistemas com muitas dependências, liberar novos pacotes de versões pode rapidamente se tornar um pesadelo. Se as especificações de dependência são muito apertadas, você corre perigo de “verion lock” (a incapacidade para atualizar um pacote sem ter que lançar novas versões de cada pacote dependente). Se as dependências são especificadas muito vagamente, você inevitavelmente será mordido por “version promiscuity” (assumindo compatibilidade com versões futuras sem ter certeza). O dependency hell é onde você está quando o verion lock e/ou version promiscuity impe-ode mover o projeto adiante de forma fácil e segura.
